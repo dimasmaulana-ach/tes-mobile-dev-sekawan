@@ -29,9 +29,9 @@ const Language = () => {
         }}
         onPress={() => {
           changeLang('id');
-            navigation.navigate('Settings')
+          navigation.navigate('Settings');
         }}>
-        <Text>{t("language.indonesian")}</Text>
+        <Text>{t('language.indonesian')}</Text>
       </TouchableOpacity>
       <Space />
       <TouchableOpacity
@@ -43,9 +43,9 @@ const Language = () => {
         }}
         onPress={() => {
           changeLang('en');
-            navigation.navigate('Settings')
+          navigation.navigate('Settings');
         }}>
-        <Text>{t("language.english")}</Text>
+        <Text>{t('language.english')}</Text>
       </TouchableOpacity>
     </Layouts>
   );

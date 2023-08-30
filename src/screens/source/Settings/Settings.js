@@ -72,7 +72,7 @@ const Settings = () => {
         onPress={() => {
           navigator.navigate('Home');
         }}>
-        Keluar
+        {t('setting.back')}
       </Button>
     </Layouts>
   );

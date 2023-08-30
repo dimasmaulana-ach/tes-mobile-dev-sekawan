@@ -38,7 +38,8 @@
     "version": "Version",
     "darkmode": "Dark Mode",
     "language": "Language",
-    "about": "About App"
+    "about": "About App",
+  "back": "back"
   },
   "language": {
     "title": "Language",

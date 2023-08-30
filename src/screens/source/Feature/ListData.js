@@ -4,8 +4,8 @@ import {Layouts, Row, Space} from '~components';
 import {get} from '~utils/api';
 import {Throttle, responsive} from '~utils';
 import {Card, Text} from '@ui-kitten/components';
-import { useNavigation } from '@react-navigation/native';
-import { useTranslation } from 'react-i18next';
+import {useNavigation} from '@react-navigation/native';
+import {useTranslation} from 'react-i18next';
 
 const ListData = () => {
   const {t} = useTranslation();
@@ -53,13 +53,15 @@ const Item = data => {
   const navigation = useNavigation();
   return (
     <>
-      <Card style={{
-        marginHorizontal: responsive.wp(2),
-      }} onPress={()=> {
-        navigation.navigate('ListDetails', {
-          id: data.id,
-        });
-      }}>
+      <Card
+        style={{
+          marginHorizontal: responsive.wp(2),
+        }}
+        onPress={() => {
+          navigation.navigate('ListDetails', {
+            id: data.id,
+          });
+        }}>
         <Row
           style={{
             width: '100%',
@@ -74,7 +76,7 @@ const Item = data => {
           <Text
             style={{
               width: '85%',
-              marginHorizontal: "auto",
+              marginHorizontal: 'auto',
             }}>
             {data.title}
           </Text>
