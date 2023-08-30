@@ -44,7 +44,7 @@ const ListDetails = ({route}) => {
         }}>
         <View style={{justifyContent: 'center', alignItems: 'center'}}>
           <Image
-            source={{uri: data.url}}
+            source={{uri: data.thumbnailUrl}}
             width={responsive.wp(100)}
             height={responsive.wp(100)}
           />

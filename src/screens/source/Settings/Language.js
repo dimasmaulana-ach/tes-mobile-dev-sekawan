@@ -1,7 +1,7 @@
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {Layouts, Space} from '~components';
-import {Card, Text} from '@ui-kitten/components';
+import {Text} from '@ui-kitten/components';
 import {changeLang} from '~i18n';
 import {useTranslation} from 'react-i18next';
 import {useNavigation} from '@react-navigation/native';
@@ -10,6 +10,7 @@ import {responsive} from '~utils';
 const Language = () => {
   const {t} = useTranslation();
   const navigation = useNavigation();
+
   return (
     <Layouts
       topNavigation={{

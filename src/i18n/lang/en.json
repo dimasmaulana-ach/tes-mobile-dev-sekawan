@@ -6,7 +6,8 @@
     "more": {
       "title": "Feature",
       "login": "Login Test",
-      "throttle": "Data List Test"
+      "throttle": "Data List Photo Test",
+      "listuser": "Data List User Test"
     },
     "details": {
       "id": "data id",
@@ -62,6 +63,17 @@
     "title-4": "Laravel Personal Blog",
     "title-5": "Node JS for Backend Cafe App",
     "title-6": "Rails for Personal Blog"
+  },
+  "list": {
+    "details": {
+      "name": "name",
+      "username": "username",
+      "email": "email"
+    }
+  },
+  "warning": {
+    "title": "Announcement",
+    "message": "Previously, I apologize because in the data list feature there are two different buttons, because yesterday when I finished the development process, I tested the image list using the JsonPlaceholder Photo api, it turned out that the image was displayed very long, then I checked again the image url api from Api Photo , it turned out that the Photo JsonPlaceholder url was down and gave a 504 Gateway Time Out response, so I provided an alternative with another GET endpoint from JsonPlaceholder, namely the endpoint for users, then I added my own hard coded image"
   },
   "welcome": {},
   "message": {},

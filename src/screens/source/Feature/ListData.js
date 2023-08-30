@@ -68,7 +68,7 @@ const Item = data => {
             alignItems: 'center',
           }}>
           <Image
-            source={{uri: data.url}}
+            source={{uri: data.thumbnailUrl}}
             width={responsive.wp(10)}
             height={responsive.wp(10)}
           />

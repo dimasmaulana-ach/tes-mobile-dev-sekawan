@@ -8,5 +8,20 @@ import Profile from './source/Profile/Profile';
 import Settings from './source/Settings/Settings';
 import Portofolio from './source/Profile/Portofolio';
 import Language from './source/Settings/Language';
+import ListDataUsers from './source/Feature/ListDataUsers';
+import ListDetailsUsers from './source/Feature/Details/ListDetailsUsers';
 
-export {Login, Home, Splash, FeatureList, ListData, ListDetails, Profile, Settings, Portofolio, Language};
+export {
+  Login,
+  Home,
+  Splash,
+  FeatureList,
+  ListData,
+  ListDataUsers,
+  ListDetails,
+  ListDetailsUsers,
+  Profile,
+  Settings,
+  Portofolio,
+  Language,
+};

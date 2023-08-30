@@ -6,7 +6,8 @@
     "more": {
       "title": "Fitur",
       "login": "Tes Masuk",
-      "throttle": "Tes List Data"
+      "throttle": "Tes List Data Photo",
+      "listuser": "Tes List Data User"
     },
     "details": {
       "id": "data id",
@@ -61,5 +62,16 @@
     "language": "Bahasa",
     "about": "Tentang App",
   "back": "kembali"
+  },
+  "list": {
+    "details": {
+      "name": "nama",
+      "username": "username",
+      "email": "email"
+    }
+  },
+  "warning": {
+    "title": "Pengumuman",
+    "message": "Sebelumnya mohon maaf karena pada fitur list data ada dua tombol yang berbeda, karena kemarin ketika saya proses development sudah selesai kemudian saya tes list image yang menggunakan api dari JsonPlaceholder Photo ternyata Image di tampilkan sangat lama, kemudian saya cek kembali api url image dari Api Photo, ternyata url Photo JsonPlaceholder mengalami down dan memberikan respon 504 Gateway Time Out, sehingga saya berikan alternatif dengan GET endpoint lain dari JsonPlaceholder yaitu endpoint untuk user, kemudian saya tambahkan image sendiri secara hard code"
   }
 }

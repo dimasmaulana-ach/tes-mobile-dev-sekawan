@@ -9,7 +9,9 @@ import {
   Splash,
   ListDetails,
   Portofolio,
-  Language
+  Language,
+  ListDataUsers,
+  ListDetailsUsers
 } from '~screens';
 import TabNavigators from './bottomTabs';
 
@@ -32,7 +34,9 @@ const Navigators = () => {
         <Stack.Screen name="Feature" component={TabNavigators} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="ListData" component={ListData} />
+        <Stack.Screen name="ListDataUsers" component={ListDataUsers} />
         <Stack.Screen name="ListDetails" component={ListDetails} />
+        <Stack.Screen name="ListDetailsUsers" component={ListDetailsUsers} />
         <Stack.Screen name="Portofolio" component={Portofolio} />
         <Stack.Screen name="Language" component={Language} />
       </Stack.Navigator>
