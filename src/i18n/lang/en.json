@@ -1,0 +1,69 @@
+{
+  "setup": {
+    "welcome": "Welcome",
+    "base": "React Native Sekawan Test",
+    "try": "Get Started",
+    "more": {
+      "title": "Feature",
+      "login": "Login Test",
+      "throttle": "Data List Test"
+    },
+    "details": {
+      "id": "data id",
+      "album": "album id",
+      "title": "title",
+      "url": "url"
+    }
+  },
+  "common": {
+    "ok": "Ok!",
+    "cancel": "Cancel",
+    "back": "Back",
+    "logout": "Log Out"
+  },
+  "login": {
+    "login": "Login",
+    "email": "email",
+    "password": "password",
+    "input": "input",
+    "hint": "hint",
+    "errors": {
+      "email": "email is invalid",
+      "password": "password of at least 8 characters",
+      "errormessage": "email or password is invalid"
+    }
+  },
+  "setting":{
+    "title": "Settings",
+    "version": "Version",
+    "darkmode": "Dark Mode",
+    "language": "Language",
+    "about": "About App"
+  },
+  "language": {
+    "title": "Language",
+    "indonesian": "Indonesian",
+    "english": "English"
+  },
+  "profile": {
+    "name": "name",
+    "email": "email",
+    "pob": "place of birth",
+    "yob": "year of birth",
+    "about": "about me",
+    "about-data": "I am Dimas Maulana, I am a Full Stack Developer, I have an interest in technology, I have experience as a frontend developer and mobile developer, and I have great motivation in exploring the field of technology, especially in the field of web development and mobile applications."
+  },
+  "portofolio": {
+    "title": "Portfolio",
+    "title-1": "Rust Cryptography",
+    "title-2": "React Native for Cafe App",
+    "title-3": "Node JS Backend for Lelang App",
+    "title-4": "Laravel Personal Blog",
+    "title-5": "Node JS for Backend Cafe App",
+    "title-6": "Rails for Personal Blog"
+  },
+  "welcome": {},
+  "message": {},
+  "errors": {},
+  "alerts": {}
+}

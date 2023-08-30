@@ -1,0 +1,64 @@
+{
+  "setup": {
+    "welcome": "Selamat Datang",
+    "base": "React Native Tes Sekawan",
+    "try": "Mulai Sekarang",
+    "more": {
+      "title": "Fitur",
+      "login": "Tes Masuk",
+      "throttle": "Tes List Data"
+    },
+    "details": {
+      "id": "data id",
+      "album": "album id",
+      "title": "judul",
+      "url": "url"
+    }
+  },
+  "language": {
+    "title": "Bahasa",
+    "indonesian": "Bahasa Indonesian",
+    "english": "Bahasa Inggris"
+  },
+  "common": {
+    "ok": "Oke!",
+    "cancel": "Batal",
+    "back": "Kembali",
+    "logout": "Keluar"
+  },
+  "login": {
+    "login": "Masuk",
+    "email": "email",
+    "password": "kata sandi",
+    "input": "masukkan",
+    "hint": "petunjuk",
+    "errors": {
+      "email": "email tidak valid",
+      "password": "kata sandi minimal 8 karakter",
+      "errormessage": "email atau kata sandi tidak sesuai"
+    }
+  },"profile": {
+    "name": "nama",
+    "email": "email",
+    "pob": "tempat lahir",
+    "yob": "tahun lahir",
+    "about": "tentang saya",
+    "about-data": "Saya Dimas Maulana, saya seorang Full Stack Developer, saya memiliki minat terhadap teknologi, saya memiliki pengalaman sebagai frontend developer dan mobile developer, dan saya memiliki motivasi yang besar dalam mendalami bidang teknologi khususnya di bidang web development dan aplikasi seluler."
+  },
+  "portofolio": {
+    "title": "Portofolio",
+    "title-1": "Rust Kriptographi",
+    "title-2": "React Native untuk Cafe App",
+    "title-3": "Node JS Backend untuk Lelang App",
+    "title-4": "Laravel Personal Blog",
+    "title-5": "Node JS untuk Backend Cafe App",
+    "title-6": "Rails untuk Personal Blog"
+  },
+  "setting":{
+    "title": "Pengaturan",
+    "version": "Versi",
+    "darkmode": "Mode Gelap",
+    "language": "Bahasa",
+    "about": "Tentang App"
+  }
+}
